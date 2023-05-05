@@ -6,7 +6,24 @@ package org.example;
  */
 public class App 
 {
+    int num1=20;
+    public static boolean isEvenNumber(int number){
 
+        boolean result = false;
+        if(number%2 == 0){
+            result = true;
+        }
+        return result;
+    }
+
+    public static boolean isOddNumber(int number){
+
+        boolean result = false;
+        if(number%2 != 0){
+            result = true;
+        }
+        return result;
+    }
 
     public static int calculate(int x, int y){
 
